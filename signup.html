@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skutailer</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="register">
+        <div class='navbar'>
+            <img src='images/logo.svg'></img>
+            <ul class='mj'>
+              <li><a href='index.html'>Home</a></li>
+              <li><a href='#'>About</a></li>
+              <li><a href='#'>How it Works</a></li>
+              <li><a href='#'>Contact Us</a></li>
+              <li><a href='#'>Shop Now</a></li>
+            </ul>
+            <div class='ty'>
+                <a href="sign in.html">
+                <button type='button' class='btn'>Log In</button>
+            </a>
+                <button type='button' class='skype'>Sign Up</button>
+                </div>
+    </div>
+    <div class="signup">
+        <img class="howcome" src="./images/big logo.svg" alt="">
+        <h1 class="cold">REGISTER</h1>
+        <form action="#">
+            <div class="input-box">
+            <label class="name" for="username">Name*</label>
+            <input class="user" type="text" name="username" placeholder="Tolu Ogechukwu" required>
+            <div class="icon"><i class="fa fa-user"></i></div>
+            <div class="input-5">
+            <label class="look" for="email">Email*</label>
+            <input class="hike" type="email" name="Email" placeholder="" required>
+            <div class="icon-1"><i class="fa fa-envelope-o"></i></div>
+            <div class="input-6">
+            <label class="tyh" for="password">Create Password*</label>
+            <input id="myInput" type="password" name="password" placeholder="" required>
+            <div class="icon-2">
+                <i class="fa fa-lock"></i>
+                <span onclick="myFunction()">
+                <i id="hide1" class="fa fa-eye"></i>
+                <i id="hide2" class="fa fa-eye-slash"></i>
+            </span>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="checkbox">
+            <input class="tull" type="checkbox">
+            <p class="reeel">By cliking this box, you are agreeing to the Terms and Conditions</p>
+        </div>
+        <div class="register">
+            <input class="reto" type="submit" name="submit" value="REIGSTER">
+            
+        </div>
+        </form>
+    </div>
+    </div>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myInput")
+            var y = document.getElementById("hide1")
+            var z = document.getElementById("hide2")
+
+            if(x.type === 'password'){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none";
+            }
+            else{
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 30px 66px;
+    gap: 130px;
+    position: absolute;
+    width: 1200px; 
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+  }
+  
+  .navbar ul{
+    display: flex;
+    font-size: 17px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 463px;
+    height: 16px;
+    list-style: none;
+    margin: 0%;
+  }
+  .navbar ul a{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 70px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 2px;
+    
+  }
+  .navbar ul a:hover{
+    background-color: #FF6700;
+    color: #FFFFFF;
+    border-radius: 5px;
+  }
+  .mj{
+    margin-left: 10px;
+  }
+  .ty{
+    display: flex;
+    margin-left: 10px;
+  }
+  .ty a{
+    text-decoration: none;
+  }
+  .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-right: 6px;
+    width: 76px;
+    height: 30px;
+    background: #F5F5F5;
+    border: 1px solid #FF6700;
+    border-radius: 20px;
+  }
+  .skype{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 86px;
+    height: 30px;
+    background: #FF6700;
+    border-radius: 20px;
+    border: none!important;
+  }
+  .close{
+    position: absolute;
+    width: 100vw;
+    height: 651px;
+    left: 0px;
+    top: 100px;
+    background: #FFFFFF;
+  }
+  .gt{
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 64px;
+    top: 50px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FF6700;
+  }
+  .close h4{
+    position: absolute;
+    width: 503px;
+    height: 32px;
+    right: 756px;
+    top: 82px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #003777;
+  }
+  .tesla{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: 65px;
+    top: 125px;
+    background: #F2F2FF;
+    border-radius: 20px;
+    border: none;
+  }
+  .nike{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: 380px;
+    top: 125px;
+    background: #F2F2FF;
+    border-radius: 20px;
+    border: none;
+  }
+  .crone{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: 65px;
+    top: 209px;
+    background: #F2F2FF;
+    border-radius: 20px;
+    border: none;
+  }
+  .fire{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: 380px;
+    top: 209px;
+    background: #F2F2FF;
+    border-radius: 20px;
+    border: none;
+  }
+  .correct{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 611px;
+    height: 201px;
+    left: 64px;
+    top: 293px;
+    background: #F2F2FF;
+    border-radius: 20px;
+    border: none;
+  }
+  .dear{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 64px;
+    width: 120px;
+    top: 510px;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 3px;
+    font-family: 'josefin sans';
+    color: #FFFFFF;
+    text-align: center;
+    background:  #003777;
+    border-radius: 5px;
+    border: none;
+  }
+  .try{
+   position: absolute;
+   width: 502px;
+   height: 601px;
+   left: 713px;
+   top: 50px;
+   background-image: url(images/picture.svg);
+   background: #003777;
+   border-radius: 15px;
+  }
+  .toor{
+    position: absolute;
+    width: 100vw;
+    height: 307px;
+    left: 0px;
+    top: 730px;
+    background: #003777;
+  }
+  .what{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    cursor: pointer;
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 571px;
+    top: 67px;
+  }
+  .normal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 480px;
+    height: 16px;
+    left: 409px;
+    list-style: none;
+    top: 129px;
+    transition: all 0.3s ease-in-out;
+  }
+  .normal a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2px;
+    width: 56px;
+  }
+  .normal a:hover{
+    background-color: #FF6700;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .icon10 a{
+    position: absolute;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    left: 580px;
+    top: 170px;
+  }
+  .ma a{
+    position: absolute;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    left: 620px;
+    top: 170px;
+  }
+  .crome a{
+    position: absolute;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    left: 660px;
+    top: 170px;
+  }
