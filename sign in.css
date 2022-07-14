@@ -10,94 +10,122 @@
     font-family: 'Roboto', sans-serif;
   }
 .navbar{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 30px 30px 66px;
-    gap: 130px;
-    position: absolute;
-    width: 1200px; 
-    height: 88px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-  }
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px 30px 66px;
+  gap: 130px;
+  position: absolute;
+  width: 100vw;
+  /* width: 1200px;  */
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.navbar ul{
+  display: flex;
+  font-size: 17px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  /* width: 463px; */
+  height: 16px;
+  list-style: none;
+  margin: 0% auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+.navbar ul a{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 70px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  padding: 2px;
   
-  .navbar ul{
+}
+.navbar ul a:hover{
+  background-color: #FF6700;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+.mj{
+  margin-left: 10px;
+  
+    /* margin-right: auto; */
     display: flex;
-    font-size: 17px;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    padding: 20px;
-    gap: 20px;
-    width: 463px;
-    height: 16px;
-    list-style: none;
-    margin: 0%;
-  }
-  .navbar ul a{
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 70px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    padding: 2px;
-    
-  }
-  .navbar ul a:hover{
-    background-color: #FF6700;
-    color: #FFFFFF;
-    border-radius: 5px;
-  }
-  .mj{
-    margin-left: 10px;
-  }
-  .ty{
-    display: flex;
-    margin-left: 10px;
-  }
-  .ty a{
-    text-decoration: none;
-  }
-  .btn{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 0px;
-    margin-right: 6px;
-    width: 76px;
-    height: 30px;
-    background: #F5F5F5;
-    border: 1px solid #FF6700;
-    border-radius: 20px;
-  }
-  .skype{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-    width: 86px;
-    height: 30px;
-    background: #FF6700;
-    border-radius: 20px;
-    border: none!important;
-  }
+    text-transform: uppercase;
+    margin-right: auto;
+}
+.ty{
+  
+  display: flex;
+  margin-left: 40px;
+  margin-right: 120px;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+}
+.ty a{
+  text-decoration: none;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-right: 6px;
+  width: 76px;
+  height: 30px;
+  background: #F5F5F5;
+  border: 1px solid #FF6700;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.skype{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 86px;
+  height: 30px;
+  background: #FF6700;
+  border-radius: 20px;
+  border: none!important;
+  text-transform: uppercase;
+}
 .signup{
-    position: absolute;
-    width: 455px;
-    height: 531px;
-    left: 413px;
-    top: 94px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 455px;
+  height: 531px;
+  /* left: 413px; */
+  top: 94px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  /* height: 80vh; */
+
 }
 .howcome{
     display: flex;
@@ -124,13 +152,18 @@
     color: #FF6700;
 }
 .login{
-    position: absolute;
+    position: relative;
     width: 455px;
     height: 531px;
-    left: 432px;
-    top: 94px;
+    /* left: 432px; */
+    top: 140px;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .clame{
     display: flex;
@@ -246,6 +279,7 @@
     border-radius: 10px;
     border: none;
 }
+
 .bri p{
     position: absolute;
     width: 300px;

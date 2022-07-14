@@ -43,8 +43,6 @@
     list-style: none;
     margin: 0%;
     margin-right: auto;
-    text-transform: uppercase;
-   
   }
   .navbar ul a{
     font-family: 'Josefin Sans';
@@ -55,15 +53,12 @@
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     padding: 2px;
-    cursor: pointer;
-    
     
   }
   .navbar ul a:hover{
     background-color: #FF6700;
     color: #FFFFFF;
     border-radius: 5px;
-    padding: 10px;
   }
   .mj{
     margin-left: 10px;
@@ -71,14 +66,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-transform: capitalize;
   }
   .ty{
     display: flex;
     margin-left: 40px;
     margin-right: 120px;
-    cursor: pointer;
-    text-transform: uppercase;
 
   }
   .ty a{
@@ -96,8 +88,6 @@
     background: #F5F5F5;
     border: 1px solid #FF6700;
     border-radius: 20px;
-    cursor: pointer;
-    text-transform: uppercase;
   }
   .skype{
     display: flex;
@@ -112,8 +102,6 @@
     background: #FF6700;
     border-radius: 20px;
     border: none!important;
-    cursor: pointer;
-    text-transform: uppercase;
   }
   .header{
     position: relative;
@@ -198,7 +186,7 @@
     flex-direction: column;
     align-items: ;
     left: 0px;
-    top: 778px;
+    top: 78px;
     margin: 0;
     background: #F2F2FF;
   }
@@ -828,7 +816,7 @@
     width: 100vw;
     height: 307px;
     left: 0px;
-    top: 800px;
+    top: 730px;
     background: #003777;
     display: flex;
     justify-content: center;

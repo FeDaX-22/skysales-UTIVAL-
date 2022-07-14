@@ -198,7 +198,7 @@
     flex-direction: column;
     align-items: ;
     left: 0px;
-    top: 778px;
+    top: 78px;
     margin: 0;
     background: #F2F2FF;
   }
@@ -446,20 +446,19 @@
     width: 100vw;
     height: 720px;
     left: 0px;
-    top: 1480px;
-    background: #F2F2FF;
-    
-    
+    top: 100px;
+    background: #F2F2FF; 
   }
   .men{
-    /* position: absolute; */
-    /* width: 230px; */
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 24px;
-    left: 525px;
-    top: 5px;
     font-family: 'Josefin Sans';
     font-style: normal;
-    font-weight: 700;
+    
     font-size: 24px;
     line-height: 24px;
     text-align: center;
@@ -468,6 +467,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  
   }
   .carry{
     display: flex;
@@ -481,6 +481,9 @@
     left: 64px;
     top: 41px;
     background: #FFFFFF;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
   
   .where{
@@ -495,11 +498,13 @@
     left: 475px;
     top: 41px;
     background: #FFFFFF;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
   .hi{
     display: flex;
     flex-direction: column;
-
     padding: 50px 20px;
     gap: 10px;
     position: absolute;
@@ -508,6 +513,9 @@
     left: 851px;
     top: 36px;
     background: #FFFFFF;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
   .p12{
     display: flex;
@@ -585,45 +593,62 @@
     text-align: justify;
     color: #003777;
   }
-  .power > #card
-  {
-    position: ini;
-    float: right;
-    display: flex ; 
+  #card {
+   
+    padding-top: 40px;
+    width: 100vw;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   
-  } 
+    margin: 0 auto;
+    
+  }
+
+  
 
   .root{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-self: stretch;
+    align-self: center;
     padding: 12px 16px;
     gap: 10px;
     cursor: pointer;
     font-family: 'josefin sans';
     color: #FFFFFF;
-    position: absolute;
-    width: 170px;
+    position: relative;
+  
+    /* width: 170px; */
+    /* min-width: 100vw; */
     height: 38px;
-    left: 650px;
-    top: 279px;
+    /* left: 650px; */
+    top: 170px;
     background: #FF6700;
     border-radius: 20px;
     border: none;
+    /* margin-top: 50px; */
+    text-align: center;
     
-    
+   
+  }
+  .getStarted {
+    width: 100vw;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
   }
   .for{
     position: relative;
     height: 438px;
     left: 0px;
-    top: 350px;
-    background-image:linear-gradient(rgba(0, 55, 119, 0.6),rgba(0, 55, 119, 0.6)), url(images/bg.svg);
+    top: 180px;
+    background-image:linear-gradient(rgba(0, 55, 119, 0.6),rgba(0, 55, 119, 0.6)), url(image/bg.svg);
   }
   .bless{
     position: absolute;
@@ -635,6 +660,7 @@
     /* background: #FFFFFF; */
     border-radius: 20px;
     padding-bottom: 0px;
+    padding-left: 100px;
   
   }
   .care{
@@ -828,7 +854,7 @@
     width: 100vw;
     height: 307px;
     left: 0px;
-    top: 800px;
+    top: 810px;
     background: #003777;
     display: flex;
     justify-content: center;

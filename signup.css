@@ -18,7 +18,8 @@
   padding: 10px 30px 30px 66px;
   gap: 130px;
   position: absolute;
-  width: 1200px; 
+  width: 100vw;
+  /* width: 1200px;  */
   height: 88px;
   left: 0px;
   top: 0px;
@@ -33,10 +34,12 @@
   align-items: center;
   padding: 20px;
   gap: 20px;
-  width: 463px;
+  /* width: 463px; */
   height: 16px;
   list-style: none;
-  margin: 0%;
+  margin: 0% auto;
+  margin-right: auto;
+  text-transform: uppercase;
 }
 .navbar ul a{
   font-family: 'Josefin Sans';
@@ -53,13 +56,27 @@
   background-color: #FF6700;
   color: #FFFFFF;
   border-radius: 5px;
+  padding: 10px;
+
 }
 .mj{
   margin-left: 10px;
+  
+    /* margin-right: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-right: auto;
 }
 .ty{
+  
   display: flex;
-  margin-left: 10px;
+  margin-left: 40px;
+  margin-right: 120px;
+  cursor: pointer;
+  text-transform: uppercase;
+  
 }
 .ty a{
   text-decoration: none;
@@ -76,6 +93,7 @@
   background: #F5F5F5;
   border: 1px solid #FF6700;
   border-radius: 20px;
+  text-transform: uppercase;
 }
 .skype{
   display: flex;
@@ -89,15 +107,24 @@
   background: #FF6700;
   border-radius: 20px;
   border: none!important;
+  text-transform: uppercase;
 }
 .signup{
-  position: absolute;
+  position: relative;
   width: 455px;
   height: 531px;
-  left: 413px;
-  top: 94px;
+  /* left: 413px; */
+  top: 140px;
   background: #FFFFFF;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  /* height: 80vh; */
+
 }
 .howcome{
   display: flex;
@@ -111,7 +138,7 @@
   top: 14px;
 }
 .cold{
-  position: absolute;
+  /* position: absolute; */
   width: 100px;
   height: 20px;
   left: 170px;
@@ -123,7 +150,7 @@
   line-height: 20px;
   color: #FF6700;
 }
-.signup{
+/* .signup{
     position: absolute;
     width: 455px;
     height: 531px;
@@ -131,7 +158,7 @@
     top: 94px;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
-}
+} */
 .howcome{
     display: flex;
     flex-direction: row;

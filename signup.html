@@ -4,43 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>skutailer</title>
+    <title>skyesales</title>
+    <link rel="shortcut icon" href="./images/newlogo.svg"  />
     <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <script src="signup.js"></script>
     <div class="register">
         <div class='navbar'>
-            <img src='images/logo.svg'></img>
+            <a href="index.html"><img src="image/newlogo.svg"></img></a>
             <ul class='mj'>
-              <li><a href='index.html'>Home</a></li>
-              <li><a href='#'>About</a></li>
-              <li><a href='#'>How it Works</a></li>
-              <li><a href='#'>Contact Us</a></li>
-              <li><a href='#'>Shop Now</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href='about-us.html'>About</a></li>
+                <li><a href='how-it-works.html'>How it Works</a></li>
+                <li><a href='Contact Us.html'>Contact Us</a></li>
+                <li><a href='shopNow.html'>Shop Now</a></li>
             </ul>
             <div class='ty'>
                 <a href="sign in.html">
-                <button type='button' class='btn'>Log In</button>
-            </a>
-                <button type='button' class='skype'>Sign Up</button>
-                </div>
-    </div>
+                  <button type='button' class='btn'>Log In</button>
+                </a>
+                <a>
+                  <button type='button' class='skype'>Sign Up</button>
+                </a>
+            </div>
+     </div>
     <div class="signup">
-        <img class="howcome" src="./images/big logo.svg" alt="">
+        <img class="howcome" src="./image/newlogo.svg" alt="">
         <h1 class="cold">REGISTER</h1>
-        <form action="#">
+        <form class="loginForm" action="index.html">
             <div class="input-box">
             <label class="name" for="username">Name*</label>
-            <input class="user" type="text" name="username" placeholder="Tolu Ogechukwu" required>
+            <input id="name" class="user" type="text" name="username" placeholder="Tolu Ogechukwu" required>
             <div class="icon"><i class="fa fa-user"></i></div>
             <div class="input-5">
             <label class="look" for="email">Email*</label>
-            <input class="hike" type="email" name="Email" placeholder="" required>
+            <input id="email" class="hike" type="email" name="Email" placeholder="" required>
             <div class="icon-1"><i class="fa fa-envelope-o"></i></div>
             <div class="input-6">
-            <label class="tyh" for="password">Create Password*</label>
-            <input id="myInput" type="password" name="password" placeholder="" required>
+            <label id="password" class="tyh " for="myInput" >Create Password*</label>
+            <input class="login" id="myInput" type="password" name="password" placeholder="" required>
             <div class="icon-2">
                 <i class="fa fa-lock"></i>
                 <span onclick="myFunction()">
@@ -56,7 +60,7 @@
             <p class="reeel">By cliking this box, you are agreeing to the Terms and Conditions</p>
         </div>
         <div class="register">
-            <input class="reto" type="submit" name="submit" value="REIGSTER">
+            <input id="registerNOW" onclick="clickMe()" class="reto" type="submit" name="submit" value="REIGSTER">
             
         </div>
         </form>
@@ -80,5 +84,37 @@
             }
         }
     </script>
+    <!-- <script src="signIn.js"></script> -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyAKXKZJLJdles2gYtXIUqJ_xZMtWMwTsW8",
+          authDomain: "skyesales-163d8.firebaseapp.com",
+          databaseURL: "https://skyesales-163d8-default-rtdb.firebaseio.com",
+          projectId: "skyesales-163d8",
+          storageBucket: "skyesales-163d8.appspot.com",
+          messagingSenderId: "560798087560",
+          appId: "1:560798087560:web:8b848f30d51640a727a23d"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        import { getDatabase, ref, set, child, get, update, remove }
+               from "https://www.gstatic.com/firebasejs/9.6.3/firebas-database.js";
+
+        const db = getDatabase();
+
+
+        //    references
+        const name = document.getElementById("name")
+        const email = document.getElementById("email")
+        const password = document.getElementById("password")
+      </script>
 </body>
 </html>
